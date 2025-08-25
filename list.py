@@ -1,4 +1,5 @@
 se = input()
+x, y, *z = se
 s = {}
 for i in se:
     if i in s:
