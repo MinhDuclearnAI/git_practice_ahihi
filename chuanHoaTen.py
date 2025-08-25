@@ -5,4 +5,6 @@ if b[1] == '/':
     b = '0' + b
 if b[4] ==  '/':
     b = b[0:3] + '0' + b[3:]
-print(a, '\n', b)
+print(a)
+print('xac nhan lai', a, 'co ngay sinh la', b)
+print('version 5')

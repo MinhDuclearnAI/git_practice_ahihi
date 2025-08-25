@@ -3,6 +3,8 @@ class people:
         self.__job = job
         self.__name = name
         self.__birth = birth
+    def getName(self):
+        return self.__name
     def __str__(self):
         return f'{self.__name} {self.__birth} {self.__job}'
 
@@ -14,4 +16,5 @@ if __name__ == '__main__':
         DS.append(x)
     for x in DS:
         print(x)
+        print(x.getName().title())
     
