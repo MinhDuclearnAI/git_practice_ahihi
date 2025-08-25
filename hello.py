@@ -1,9 +1,10 @@
 class people:
-    def __init__(self,name, birth):
+    def __init__(self,name, birth, address):
         self.name = name
         self.birth = birth
+        self.address = address
     def __str__(self):
-        return f'{self.name} {self.birth}'
+        return f'{self.name} {self.birth} {self.address}'
 
 if __name__ == '__main__':
     n = int(input())
