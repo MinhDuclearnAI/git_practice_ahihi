@@ -1,3 +1,4 @@
+from collections import Counter
 n = input('Day la ten ban a ')
 a = ' '.join(n.split()).title()
 b = input('Day la ngay sinh ban a ')
@@ -8,3 +9,6 @@ if b[4] ==  '/':
 print(a)
 print('xac nhan lai', a, 'co ngay sinh la', b)
 print('version 5')
+a = list(map(int, input().split()))
+dic = dict(Counter(a))
+print(dic, 'version 7')

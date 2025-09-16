@@ -9,4 +9,4 @@ for i in se:
         s[i] = 1
 for x, y in s.items():
     print(x,'so lan xuat hien la', y)
-print('version 5')
+print('version 7')
